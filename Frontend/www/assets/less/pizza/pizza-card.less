@@ -1,10 +1,62 @@
 .pizza-card {
-  img {
-    max-width: 250px;
-  }
+  position:relative;
 
+  img {
+    max-width: 100%;
+   // width:250px;
+  }
   h3 {
     color: @mainColor;
     background-color: lighten(@mainColor, 45%);
+    font-weight: 600;
+    font-size: 30px;
   }
+  h6 {
+    color: #a3a0a0;
+  }
+
+  .new-badge{
+    position:absolute;
+    top:-5px;
+    right:-5px;
+  }
+
+}
+
+.page-title {
+  text-align: center;
+  position: inherit;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.label {
+  display: inline-block;
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.small-pizza{
+  text-align: center;
+}
+
+.large-pizza{
+  text-align: center;
+}
+
+.row{
+  margin-left: -10px;
+  margin-right: -10px;
+  box-sizing: border-box;
+}
+
+.grn{
+  font-size: 17px;
+}
+
+.description{
+  height:60px;
 }
